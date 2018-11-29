@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED31264B21B0A07E00C052C1 /* PlayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31264A21B0A07E00C052C1 /* PlayerFactory.swift */; };
+		ED31264D21B0A6D500C052C1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31264C21B0A6D500C052C1 /* CollectionViewCell.swift */; };
+		ED31264F21B0A84B00C052C1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31264E21B0A84B00C052C1 /* Extension.swift */; };
+		ED443C3F21B0703E00CB9195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED443C3E21B0703E00CB9195 /* AppDelegate.swift */; };
+		ED443C4121B0703E00CB9195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED443C4021B0703E00CB9195 /* ViewController.swift */; };
+		ED443C4421B0703E00CB9195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED443C4221B0703E00CB9195 /* Main.storyboard */; };
+		ED443C4621B0704000CB9195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED443C4521B0704000CB9195 /* Assets.xcassets */; };
+		ED443C4921B0704000CB9195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED443C4721B0704000CB9195 /* LaunchScreen.storyboard */; };
+		ED443C5121B0776600CB9195 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED443C5021B0776600CB9195 /* PlayerModel.swift */; };
+		F981C860E408C42EB5A4DD8B /* Pods_Top100PlayersFIFA19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5646F38946A9D43C0E5F2B /* Pods_Top100PlayersFIFA19.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30BCB3AD5AE9462128E61568 /* Pods-Top100PlayersFIFA19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100PlayersFIFA19.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top100PlayersFIFA19/Pods-Top100PlayersFIFA19.release.xcconfig"; sourceTree = "<group>"; };
+		5D5646F38946A9D43C0E5F2B /* Pods_Top100PlayersFIFA19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Top100PlayersFIFA19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E50DE14ABE3680143A0878 /* Pods-Top100PlayersFIFA19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100PlayersFIFA19.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top100PlayersFIFA19/Pods-Top100PlayersFIFA19.debug.xcconfig"; sourceTree = "<group>"; };
+		ED31264A21B0A07E00C052C1 /* PlayerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFactory.swift; sourceTree = "<group>"; };
+		ED31264C21B0A6D500C052C1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		ED31264E21B0A84B00C052C1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		ED443C3B21B0703E00CB9195 /* Top100PlayersFIFA19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100PlayersFIFA19.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED443C3E21B0703E00CB9195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED443C4021B0703E00CB9195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED443C4321B0703E00CB9195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED443C4521B0704000CB9195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED443C4821B0704000CB9195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED443C4A21B0704000CB9195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED443C5021B0776600CB9195 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED443C3821B0703E00CB9195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F981C860E408C42EB5A4DD8B /* Pods_Top100PlayersFIFA19.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0318E87819606208FAB9A9F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3E50DE14ABE3680143A0878 /* Pods-Top100PlayersFIFA19.debug.xcconfig */,
+				30BCB3AD5AE9462128E61568 /* Pods-Top100PlayersFIFA19.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79C2A14139FD774592A221D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5646F38946A9D43C0E5F2B /* Pods_Top100PlayersFIFA19.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED31264621B0A01100C052C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED443C5021B0776600CB9195 /* PlayerModel.swift */,
+				ED31264A21B0A07E00C052C1 /* PlayerFactory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED31264721B0A01700C052C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED443C4221B0703E00CB9195 /* Main.storyboard */,
+				ED443C4521B0704000CB9195 /* Assets.xcassets */,
+				ED443C4721B0704000CB9195 /* LaunchScreen.storyboard */,
+				ED31264C21B0A6D500C052C1 /* CollectionViewCell.swift */,
+				ED31264E21B0A84B00C052C1 /* Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED31264821B0A02200C052C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED443C3E21B0703E00CB9195 /* AppDelegate.swift */,
+				ED443C4021B0703E00CB9195 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED31264921B0A02A00C052C1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ED443C4A21B0704000CB9195 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		ED443C3221B0703E00CB9195 = {
+			isa = PBXGroup;
+			children = (
+				ED443C3D21B0703E00CB9195 /* Top100PlayersFIFA19 */,
+				ED443C3C21B0703E00CB9195 /* Products */,
+				0318E87819606208FAB9A9F2 /* Pods */,
+				79C2A14139FD774592A221D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED443C3C21B0703E00CB9195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED443C3B21B0703E00CB9195 /* Top100PlayersFIFA19.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED443C3D21B0703E00CB9195 /* Top100PlayersFIFA19 */ = {
+			isa = PBXGroup;
+			children = (
+				ED31264921B0A02A00C052C1 /* SupportingFiles */,
+				ED31264821B0A02200C052C1 /* Controller */,
+				ED31264721B0A01700C052C1 /* View */,
+				ED31264621B0A01100C052C1 /* Model */,
+			);
+			path = Top100PlayersFIFA19;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED443C3A21B0703E00CB9195 /* Top100PlayersFIFA19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED443C4D21B0704000CB9195 /* Build configuration list for PBXNativeTarget "Top100PlayersFIFA19" */;
+			buildPhases = (
+				F82187B765E89D3D41E33995 /* [CP] Check Pods Manifest.lock */,
+				ED443C3721B0703E00CB9195 /* Sources */,
+				ED443C3821B0703E00CB9195 /* Frameworks */,
+				ED443C3921B0703E00CB9195 /* Resources */,
+				90D9AB456B338C6B1A4D7CC9 /* [CP] Embed Pods Frameworks */,
+				1AA9365CF93A0EB0A0242802 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Top100PlayersFIFA19;
+			productName = Top100PlayersFIFA19;
+			productReference = ED443C3B21B0703E00CB9195 /* Top100PlayersFIFA19.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED443C3321B0703E00CB9195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Omar Aldair Romero Pérez";
+				TargetAttributes = {
+					ED443C3A21B0703E00CB9195 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ED443C3621B0703E00CB9195 /* Build configuration list for PBXProject "Top100PlayersFIFA19" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED443C3221B0703E00CB9195;
+			productRefGroup = ED443C3C21B0703E00CB9195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED443C3A21B0703E00CB9195 /* Top100PlayersFIFA19 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED443C3921B0703E00CB9195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED443C4921B0704000CB9195 /* LaunchScreen.storyboard in Resources */,
+				ED443C4621B0704000CB9195 /* Assets.xcassets in Resources */,
+				ED443C4421B0703E00CB9195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA9365CF93A0EB0A0242802 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top100PlayersFIFA19/Pods-Top100PlayersFIFA19-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D9AB456B338C6B1A4D7CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Top100PlayersFIFA19/Pods-Top100PlayersFIFA19-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top100PlayersFIFA19/Pods-Top100PlayersFIFA19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82187B765E89D3D41E33995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Top100PlayersFIFA19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED443C3721B0703E00CB9195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED31264D21B0A6D500C052C1 /* CollectionViewCell.swift in Sources */,
+				ED443C5121B0776600CB9195 /* PlayerModel.swift in Sources */,
+				ED443C4121B0703E00CB9195 /* ViewController.swift in Sources */,
+				ED31264F21B0A84B00C052C1 /* Extension.swift in Sources */,
+				ED443C3F21B0703E00CB9195 /* AppDelegate.swift in Sources */,
+				ED31264B21B0A07E00C052C1 /* PlayerFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED443C4221B0703E00CB9195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED443C4321B0703E00CB9195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED443C4721B0704000CB9195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED443C4821B0704000CB9195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED443C4B21B0704000CB9195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED443C4C21B0704000CB9195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED443C4E21B0704000CB9195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E50DE14ABE3680143A0878 /* Pods-Top100PlayersFIFA19.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6A85H8M23;
+				INFOPLIST_FILE = "$(SRCROOT)/Top100PlayersFIFA19/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omaraldair.Top100PlayersFIFA19;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED443C4F21B0704000CB9195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BCB3AD5AE9462128E61568 /* Pods-Top100PlayersFIFA19.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6A85H8M23;
+				INFOPLIST_FILE = "$(SRCROOT)/Top100PlayersFIFA19/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omaraldair.Top100PlayersFIFA19;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED443C3621B0703E00CB9195 /* Build configuration list for PBXProject "Top100PlayersFIFA19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED443C4B21B0704000CB9195 /* Debug */,
+				ED443C4C21B0704000CB9195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED443C4D21B0704000CB9195 /* Build configuration list for PBXNativeTarget "Top100PlayersFIFA19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED443C4E21B0704000CB9195 /* Debug */,
+				ED443C4F21B0704000CB9195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED443C3321B0703E00CB9195 /* Project object */;
+}

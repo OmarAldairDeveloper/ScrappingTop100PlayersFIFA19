@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qTo-uB-eCk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iur-Hh-Vmo">
+            <objects>
+                <collectionViewController id="qTo-uB-eCk" customClass="ViewController" customModule="Top100PlayersFIFA19" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="auw-GR-zTe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VZt-K8-ZRk">
+                            <size key="itemSize" width="296" height="236"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="MQr-fQ-wTm" customClass="CollectionViewCell" customModule="Top100PlayersFIFA19" customModuleProvider="target">
+                                <rect key="frame" x="39.5" y="0.0" width="296" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="296" height="236"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MMv-qA-NXK">
+                                            <rect key="frame" x="0.0" y="0.0" width="296" height="170"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="170" id="cNE-MZ-cXK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqX-so-WY4">
+                                            <rect key="frame" x="4" y="178" width="288" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7e-Tx-geI">
+                                            <rect key="frame" x="4" y="208" width="288" height="19.5"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Italic" family="Avenir Next" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="x7e-Tx-geI" firstAttribute="top" secondItem="hqX-so-WY4" secondAttribute="bottom" constant="8" id="CAp-8d-SDo"/>
+                                    <constraint firstItem="MMv-qA-NXK" firstAttribute="top" secondItem="MQr-fQ-wTm" secondAttribute="top" id="G2d-sU-PzO"/>
+                                    <constraint firstItem="hqX-so-WY4" firstAttribute="leading" secondItem="MQr-fQ-wTm" secondAttribute="leading" constant="4" id="TdY-ct-SAi"/>
+                                    <constraint firstItem="x7e-Tx-geI" firstAttribute="leading" secondItem="MQr-fQ-wTm" secondAttribute="leading" constant="4" id="UfK-5m-DsS"/>
+                                    <constraint firstAttribute="trailing" secondItem="MMv-qA-NXK" secondAttribute="trailing" id="dlE-GL-PIw"/>
+                                    <constraint firstAttribute="trailing" secondItem="hqX-so-WY4" secondAttribute="trailing" constant="4" id="h7l-vI-wiU"/>
+                                    <constraint firstAttribute="trailing" secondItem="x7e-Tx-geI" secondAttribute="trailing" constant="4" id="per-pz-7zo"/>
+                                    <constraint firstItem="MMv-qA-NXK" firstAttribute="leading" secondItem="MQr-fQ-wTm" secondAttribute="leading" id="wEH-nO-O0e"/>
+                                    <constraint firstItem="hqX-so-WY4" firstAttribute="top" secondItem="MMv-qA-NXK" secondAttribute="bottom" constant="8" id="xAV-cS-OWU"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imagePlayer" destination="MMv-qA-NXK" id="tTV-O1-vR0"/>
+                                    <outlet property="namePlayer" destination="hqX-so-WY4" id="GBG-Sp-7zH"/>
+                                    <outlet property="teamPlayer" destination="x7e-Tx-geI" id="cr4-oC-3tb"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="qTo-uB-eCk" id="UWa-Bk-hQp"/>
+                            <outlet property="delegate" destination="qTo-uB-eCk" id="9nj-p8-JJs"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0TT-tP-ifp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192.80000000000001" y="58.920539730134934"/>
+        </scene>
+    </scenes>
+</document>
